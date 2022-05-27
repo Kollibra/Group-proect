@@ -1,0 +1,151 @@
+/* Фон */
+/*  общий фон  background: background: #E5E5E5 */
+/*  команда background: #F5F4FA */
+/* overlay background: rgba(47, 48, 58, 0.4);*/
+/* background: #C4C4C4;*/
+
+/* Цвет текста  и фона*/
+:root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --white-text-color: #ffffff;
+  --address-text-color: rgba(255, 255, 255, 0.6);
+  --footer-hero-color: #2F303A;
+  --background-button-color: #f5f4fa;
+  --linear-gradient-color: ;
+  --shadow-color: rgba(0, 0, 0, 0.15);
+  --border-bottom-header: #ECECEC;
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.about {
+  padding-bottom: 25px;
+
+  @media screen and (min-width: 1279px) {
+    padding-bottom: 39px;
+  }
+}
+
+
+.about-container {
+  position: relative;
+
+  @media screen and (min-width: 768px) {
+    width: 690px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 980px;
+  }
+}
+
+.about__picture {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    display: block;
+    content: '';
+
+    top: 6px;
+    left: -20px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    top: -50px;
+    left: -70px;
+  }
+}
+
+.content {
+  @media screen and (max-width: 767px) {
+    max-width: 290px;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 336px;
+    margin-left: 330px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 392px;
+    margin-left: 530px;
+  }
+}
+
+.content__title {
+  font-family: Caveat Brush;
+  font-weight: 400;
+  font-size: 24px;
+  padding-bottom: 16px;
+  padding-top: 8px;
+  color: var(--main-text-color);
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 18px;
+    padding-top: 18px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 36px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
+}
+
+.content__list {
+  @media screen and (min-width: 1280px) {
+    width: 380px;
+    height: 394px;
+  }
+}
+
+.content__item {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--main-text-color);
+  margin-bottom: 1.25em;
+
+  @media screen and (min-width: 1279px) {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+  }
+
+  &:last-child {
+    @media screen and (min-width: 1279px) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.content__btn-more {
+  font-family: Caveat Brush;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 0;
+  color: var(--button-color);
+
+  border: none;
+  background-color: transparent;
+
+  @media screen and (min-width: 1279.98px) {
+    display: none;
+  }
+}
+
+.moreContentIsHiden {
+  @media screen and (max-width: 1279.97px) {
+    display: none;
+  }
+}
