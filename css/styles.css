@@ -6,9 +6,10 @@
 *::after {
   box-sizing: border-box;
 }
-$main-bg-color: #FFFFFF;
-$sec-bg-color: #FFFFF9;
-$accent-color: #FEF3E4;
+
+ $ main-bg-color: #FFFFFF;
+ $sec-bg-color: #FFFFF9;
+ $accent-color: #FEF3E4;
 
 $details-color: #AB816C;
 $main-icons-color: #2E2520;
