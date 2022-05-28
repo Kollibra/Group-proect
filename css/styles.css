@@ -67,5 +67,37 @@
     min-width: 330px;
     margin-right: 25px;
   }
-
+}
   
+ .container {
+      width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .item2 {
+      display: none;
+    }
+  
+    .label {
+      display: inline-block;
+      margin-top: 20px;
+      border: 1px solid grey;
+      padding: 10px 50px;
+    }
+  
+    .input:checked~.item2 {
+      display: block;
+    }
+  
+    .less {
+      display: none;
+    }
+  
+    .input:checked~.label .more {
+      display: none;
+    }
+  
+    .input:checked~.label .less {
+      display: inline;
+    }
