@@ -18,11 +18,7 @@
     padding-right: 0;
   }
 
-  @media screen and (min-width: 1280px) {
-    max-width: 980px;
-    margin-left: 71px;
-    margin-right: 229px;
-  }
+  
 
   .about-us__box {
     @media screen and (min-width: 768px) {
@@ -30,11 +26,7 @@
       padding-top: 10px;
     }
 
-    @media screen and (min-width: 1280px) {
-      max-width: 392px;
-      padding-top: 70px;
-    }
-  }
+    
 
   & .about-us__text {
     margin-bottom: 0px;
@@ -43,21 +35,9 @@
       display: none;
     }
 
-    @media screen and (min-width: 768px) {
-      width: 336px;
-    }
-
-    @media screen and (min-width: 1280px) {
-      width: 392px;
-      height: 374px;
-      font-size: 18px;
-      line-height: 22px;
-
-      .more {
-        display: inline;
-      }
-    }
-  }
+         
+    
+  
 
   & .about-us__button {
     display: block;
@@ -79,10 +59,7 @@
       color: var(--icon-color);
     }
 
-    @media screen and (min-width: 1280px) {
-      display: none;
-    }
-  }
+   
 }
 
 .about-us__image {
@@ -91,8 +68,4 @@
     margin-right: 25px;
   }
 
-  @media screen and (min-width: 1280px) {
-    min-width: 512px;
-    margin-right: 76px;
-  }
-}
+  
