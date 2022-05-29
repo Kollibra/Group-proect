@@ -1,12 +1,4 @@
 
-
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 $main-bg-color: #FFFFFF;
 $sec-bg-color: #FFFFF9;
 $accent-color: #FEF3E4;
@@ -18,6 +10,14 @@ $sec-icons-color: #674D40;
 $main-text-color: #2E2520;
 $sec-text-color: #000000;
 $button-text-color: #FFFFFF;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
 
 body {
   color: $main-text-color;
@@ -83,8 +83,7 @@ a {
   margin-bottom: 8px;
 }
 .about__text {
-  font-family: 'Montserrat', sans-serif;
-  color: $main-icon-color;
+  color: $main-text-color;
   line-height: 1.21;
   display: block;
   margin-bottom: 20px;
@@ -98,9 +97,9 @@ a {
   font-size: 18px;
   line-height: 1.27;
   text-align: center;
-  color: #AB816C;
+  color: $details-color;
   border: none;
-  background-color: #FFFFFF;
+  background-color: $button-text-color;
   padding: 0;
   margin-bottom: 16px;
 }
