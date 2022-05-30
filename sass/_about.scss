@@ -12,8 +12,6 @@
 }
 
 .about__title {
-    line-height: 1.25;
-    color: $main-icons-color; 
     text-align: center;
     margin-bottom: 8px;
 
@@ -25,29 +23,22 @@
 
     @include mq(desktop) {
     text-align: left;
-    
 }
 }
 .about-picture {
     @include mq(tablet-only)
-    
      {
-        margin-right: 32px;
+    margin-right: 32px;
         width: calc(100% / 2);
     }
-        @include mq(desktop) {
+    @include mq(desktop) {
             margin-right: 139px ;
             width: calc(100% / 2);
-
         }
 }
 .about__text {
-    color: $main-text-color; 
-    line-height: 1.21;
     display: block;
     margin-bottom: 16px;
-
-    
 }
 .hide-text {
     display: none;
@@ -58,14 +49,10 @@
     }
 
 }
-
 .label {
     display: inline-block;
     font-family: 'Caveat Brush';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
-    line-height: 1.27;
     text-align: center;
     color: $details-color;
    
@@ -80,7 +67,7 @@
 
 .less {
     display: none;
-    
+   
 }
 
 .input:checked~.label .more {
@@ -104,8 +91,6 @@
         @include mq(tablet-only) {
             display: flex;
             justify-content: flex-end;
-           
-
             width: 768px;
             padding-left: 32px;
             padding-right: 32px;
@@ -123,6 +108,6 @@
      display: block;
      height: auto;
     }
-    
+  
         
 }
