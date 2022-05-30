@@ -1,12 +1,15 @@
+.about {
+    margin-top: 5px;
+}
 .about__img {
     margin-bottom: 16px;
     @include mq(tablet-only) {
         margin: 0;
         height: auto;
     }
-         @include mq(desktop) {
-            margin: 0;
-                height: auto;
+    @include mq(desktop-only) {
+        margin: 0;
+        height: auto;
             }
              
 }
@@ -31,8 +34,8 @@
     margin-right: 32px;
         width: calc(100% / 2);
     }
-    @include mq(desktop) {
-            margin-right: 139px ;
+    @include mq(desktop-only) {
+            
             width: calc(100% / 2);
         }
 }
@@ -76,7 +79,7 @@
 
 .input:checked~.label .less {
     display: inline;
-    // margin-top: 20px;
+   
 }
 .about-container {
     width: 100%;
@@ -108,6 +111,11 @@
      display: block;
      height: auto;
     }
+    @include mq(desktop-only) {
+    width: calc(100% / 2);
+    display: block;
+    height: auto;
+        }
   
         
 }
