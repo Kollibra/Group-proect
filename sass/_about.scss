@@ -135,9 +135,9 @@
     }
     @include mq(desktop-only) {
     width: calc(100% / 2);
+    max-width: 392px;
     display: block;
     height: auto;
         }
-  
-        
+         
 }
