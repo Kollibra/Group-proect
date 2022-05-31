@@ -51,8 +51,11 @@
         width: calc(100% / 2);
     }
 
-    @include mq(desktop-only) {}
-}
+    @include mq(desktop-only) {
+        width: calc(100% / 2);
+            }
+    }
+
 
 .about__text {
     display: block;
@@ -142,6 +145,7 @@
         max-width: 392px;
         display: block;
         height: auto;
+        margin-left: 139px;
     }
 
 }
